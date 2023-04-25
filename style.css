@@ -29,8 +29,8 @@ h1{
 .input{
     display: flex;
     justify-content: space-between;
-    margin: 10px; 
-    padding: 10px;
+    /* margin: 10px;  */
+    padding-top: 15px;
     font-size: 20px;
     /* word-wrap: break-word; quebra de linha */
 }
@@ -55,7 +55,7 @@ input{
     border-radius: 10px;
     text-align: center;
     color: orange;
-    margin: 5px;
+    /* margin: 5px; */
     /* column-count: 2;  cria duas ou mais colunas */
     /* writing-mode: vertical-rl; deixa o conteudo na vertical*/ 
 }
@@ -67,7 +67,7 @@ input{
     color: white;
     align-self: center;
     padding: 5px;
-    margin: 5px;
+    margin: 15px 0px 15px 0px;
     border-radius: 5px;
     border: none;
     cursor: pointer;
