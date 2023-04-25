@@ -4,9 +4,14 @@
     box-sizing: border-box;
 }
 
+main{
+    align-items: center;
+    padding: 15px;
+}
+
 h1{
     border-bottom: solid 1px black;
-    margin-bottom: 3px;
+    margin-bottom: 10px;
 }
 
 .container{
@@ -16,7 +21,7 @@ h1{
     background-color: orange;
     border-radius: 5px;
     width: 95%;
-    height: 80vh;
+    height: auto;
     padding: 10px;
     margin: 10px;
 
@@ -24,27 +29,35 @@ h1{
 .input{
     display: flex;
     justify-content: space-between;
-    margin: 2px; 
+    margin: 10px; 
+    padding: 10px;
+    font-size: 20px;
+    /* word-wrap: break-word; quebra de linha */
 }
 
 input{
     border-radius: 5px;
     border: none;
     outline: none;
-    padding: 2px;
+    padding: 3px;
     text-align: center;
     font-size: 15px;
+    width: 80%;
+    
 }
 
 .result{
     width: 99%;
-    height: 100%;
+    height: 15vh;
     background-color: black;
     font-size: 15px;
     padding: 5px;
     border-radius: 10px;
     text-align: center;
     color: orange;
+    margin: 5px;
+    /* column-count: 2;  cria duas ou mais colunas */
+    /* writing-mode: vertical-rl; deixa o conteudo na vertical*/ 
 }
 
 
@@ -53,13 +66,13 @@ input{
     background-color: black;
     color: white;
     align-self: center;
-    padding: 2px;
+    padding: 5px;
     margin: 5px;
     border-radius: 5px;
     border: none;
     cursor: pointer;
 }
 
-/* .botao:hover{
-    background-color: rgba(128, 128, 128, 0.502);
-} */
+.botao:hover{
+    background-color: rgba(0, 0, 0, 0.841);
+}
